@@ -1,0 +1,417 @@
+path_id,isnad_id,_mode,Reader,Transmitter,Path
+isnad_001,jb_001,riwayah,Nāfiʿ,ʾIsmāʿīl b. Ǧaʿfar,al-Dūrī
+isnad_002,jb_002,tilawah,Nāfiʿ,ʾIsmāʿīl b. Ǧaʿfar,al-Dūrī
+isnad_003,jb_003,tilawah,Nāfiʿ,ʾIsmāʿīl b. Ǧaʿfar,al-Dūrī
+isnad_004,jb_004,riwayah,Nāfiʿ,ʾIsmāʿīl b. Ǧaʿfar,al-Dūrī
+isnad_005,jb_005,riwayah,Nāfiʿ,ʾIsmāʿīl b. Ǧaʿfar,al-Dūrī
+isnad_006,jb_006,riwayah,Nāfiʿ,ʾIsmāʿīl b. Ǧaʿfar,al-Kisāʾī
+isnad_007,jb_007,riwayah,Nāfiʿ,ʾIsmāʿīl b. Ǧaʿfar,al-Kisāʾī
+isnad_008,jb_008,riwayah,Nāfiʿ,ʾIsmāʿīl b. Ǧaʿfar,al-Kisāʾī
+isnad_009,jb_009,riwayah,Nāfiʿ,ʾIsmāʿīl b. Ǧaʿfar,al-Hāšimī
+isnad_010,jb_010,riwayah,Nāfiʿ,ʾIsmāʿīl b. Ǧaʿfar,ʾAbū ʿUbayd
+isnad_011,jb_011,riwayah,Nāfiʿ,ʾIsmāʿīl b. Ǧaʿfar,Ḥusayn b. Muḥammad al-Marrūḏī
+isnad_012,jb_012,riwayah,Nāfiʿ,ʾIsmāʿīl b. Ǧaʿfar,Burayd b. ʿAbd al-Wāḥid ʾAbū al-Maʿāfī al-Ḍarīr
+isnad_013,jb_013,riwayah,Nāfiʿ,al-Musayyabī,Ibn al-Musayyabī
+isnad_014,jb_014,riwayah,Nāfiʿ,al-Musayyabī,Ibn al-Musayyabī
+isnad_015,jb_015,tilawah,Nāfiʿ,al-Musayyabī,Ibn al-Musayyabī
+isnad_016,jb_016,tilawah,Nāfiʿ,al-Musayyabī,Ibn al-Musayyabī
+isnad_017,jb_017,riwayah,Nāfiʿ,al-Musayyabī,Ibn Saʿdān
+isnad_018,jb_018,riwayah,Nāfiʿ,al-Musayyabī,Ibn Saʿdān
+isnad_019,jb_019,tilawah,Nāfiʿ,al-Musayyabī,Ibn al-Musayyabī
+isnad_020,jb_020,tilawah,Nāfiʿ,al-Musayyabī,Ibn al-Musayyabī
+isnad_021,jb_021,tilawah,Nāfiʿ,al-Musayyabī,Ibn Saʿdān
+isnad_022,jb_022,tilawah,Nāfiʿ,al-Musayyabī,Ibn Saʿdān
+isnad_023,jb_023,riwayah,Nāfiʿ,al-Musayyabī,Ibn Saʿdān
+isnad_024,jb_024,riwayah,Nāfiʿ,al-Musayyabī,Ḫalaf
+isnad_025,jb_025,riwayah,Nāfiʿ,al-Musayyabī,Ḫalaf
+isnad_026,jb_026,riwayah,Nāfiʿ,al-Musayyabī,Ḫalaf
+isnad_027,jb_027,riwayah,Nāfiʿ,al-Musayyabī,Ibn Ḏakwān
+isnad_028,jb_028,riwayah,Nāfiʿ,al-Musayyabī,ʾAbū al-Ḥāriṯ
+isnad_029,jb_029,riwayah,Nāfiʿ,al-Musayyabī,Ibn Ǧubayr
+isnad_030,jb_030,riwayah,Nāfiʿ,al-Musayyabī,ʾAbū Mūsā
+isnad_031,jb_031,riwayah,Nāfiʿ,al-Musayyabī,Muḥammad al-Bāhilī
+isnad_032,jb_032,riwayah,Nāfiʿ,al-Musayyabī,Ḥammād b. Baḥr
+isnad_033,jb_033,riwayah,Nāfiʿ,Qālūn,ʾIsmāʿīl al-Qāḍī
+isnad_034,jb_034,riwayah,Nāfiʿ,Qālūn,ʾIsmāʿīl al-Qāḍī
+isnad_035,jb_035,tilawah,Nāfiʿ,Qālūn,ʾIsmāʿīl al-Qāḍī
+isnad_036,jb_036,riwayah,Nāfiʿ,Qālūn,al-Ḥulwānī
+isnad_037,jb_037,tilawah,Nāfiʿ,Qālūn,al-Ḥulwānī
+isnad_038,jb_038,tilawah,Nāfiʿ,Qālūn,al-Ḥulwānī
+isnad_039,jb_039,tilawah,Nāfiʿ,Qālūn,al-Ḥulwānī
+isnad_040,jb_040,tilawah,Nāfiʿ,Qālūn,al-Ḥulwānī
+isnad_041,jb_041,tilawah,Nāfiʿ,Qālūn,al-Ḥulwānī
+isnad_042,jb_042,riwayah,Nāfiʿ,Qālūn,al-Ḥulwānī
+isnad_043,jb_043,tilawah,Nāfiʿ,Qālūn,ʾAbū ʿAlī al-Šaḥḥām
+isnad_044,jb_044,riwayah,Nāfiʿ,Qālūn,ʾAbū Našīṭ
+isnad_045,jb_045,tilawah,Nāfiʿ,Qālūn,ʾAbū Našīṭ
+isnad_046,jb_046,riwayah,Nāfiʿ,Qālūn,ʾAḥmad b. Ṣāliḥ
+isnad_047,jb_047,riwayah,Nāfiʿ,Qālūn,ʾAḥmad b. Ṣāliḥ
+isnad_048,jb_048,tilawah,Nāfiʿ,Qālūn,ʾAḥmad b. Ṣāliḥ
+isnad_049,jb_049,riwayah,Nāfiʿ,Qālūn,ʾAḥmad b. Ṣāliḥ
+isnad_050,jb_050,riwayah,Nāfiʿ,Qālūn,ʾAḥmad b. Qālūn
+isnad_051,jb_051,riwayah,Nāfiʿ,Qālūn,ʾAḥmad b. Qālūn
+isnad_052,jb_052,riwayah,Nāfiʿ,Qālūn,ʾAḥmad b. Qālūn
+isnad_053,jb_053,riwayah,Nāfiʿ,Qālūn,ʾAḥmad b. Qālūn
+isnad_054,jb_054,riwayah,Nāfiʿ,Qālūn,ʾAḥmad b. Qālūn
+isnad_055,jb_055,riwayah,Nāfiʿ,Qālūn,ʾAḥmad b. Qālūn
+isnad_056,jb_056,riwayah,Nāfiʿ,Qālūn,ʾAḥmad b. Qālūn
+isnad_057,jb_057,riwayah,Nāfiʿ,Qālūn,ʾAḥmad b. Qālūn
+isnad_058,jb_058,riwayah,Nāfiʿ,Qālūn,ʾAḥmad b. Qālūn
+isnad_059,jb_059,riwayah,Nāfiʿ,Qālūn,ʾAḥmad b. Qālūn
+isnad_060,jb_060,riwayah,Nāfiʿ,Qālūn,ʾAḥmad b. Qālūn
+isnad_061,jb_061,riwayah,Nāfiʿ,Warš,ʿAbd al-Ṣamad b. ʿAbd al-Raḥmān b. al-Qāsim
+isnad_062,jb_062,tilawah,Nāfiʿ,Warš,ʿAbd al-Ṣamad b. ʿAbd al-Raḥmān b. al-Qāsim
+isnad_063,jb_063,tilawah,Nāfiʿ,Warš,ʿAbd al-Ṣamad b. ʿAbd al-Raḥmān b. al-Qāsim
+isnad_064,jb_064,tilawah,Nāfiʿ,Warš,ʿAbd al-Ṣamad b. ʿAbd al-Raḥmān b. al-Qāsim
+isnad_065,jb_065,riwayah,Nāfiʿ,Warš,ʾAbū Yaʿqūb al-ʾAzraq
+isnad_066,jb_066,riwayah,Nāfiʿ,Warš,ʾAbū Yaʿqūb al-ʾAzraq
+isnad_067,jb_067,riwayah,Nāfiʿ,Warš,ʾAbū Yaʿqūb al-ʾAzraq
+isnad_068,jb_068,riwayah,Nāfiʿ,Warš,ʾAbū Yaʿqūb al-ʾAzraq
+isnad_069,jb_069,tilawah,Nāfiʿ,Warš,ʾAbū Yaʿqūb al-ʾAzraq
+isnad_070,jb_070,tilawah,Nāfiʿ,Warš,ʾAbū Yaʿqūb al-ʾAzraq
+isnad_071,jb_071,tilawah,Nāfiʿ,Warš,ʾAbū Yaʿqūb al-ʾAzraq
+isnad_072,jb_072,tilawah,Nāfiʿ,Warš,ʾAbū Yaʿqūb al-ʾAzraq
+isnad_073,jb_073,tilawah,Nāfiʿ,Warš,ʾAbū Yaʿqūb al-ʾAzraq
+isnad_074,jb_074,tilawah,Nāfiʿ,Warš,ʾAbū Yaʿqūb al-ʾAzraq
+isnad_075,jb_075,tilawah,Nāfiʿ,Warš,ʾAbū Yaʿqūb al-ʾAzraq
+isnad_076,jb_076,tilawah,Nāfiʿ,Warš,ʾAbū Yaʿqūb al-ʾAzraq
+isnad_077,jb_077,riwayah,Nāfiʿ,Warš,Dāwūd b. ʾAbī Ṭaybah
+isnad_078,jb_078,riwayah,Nāfiʿ,Warš,ʾAḥmad b. Ṣāliḥ
+isnad_079,jb_079,tilawah,Nāfiʿ,Warš,ʾAḥmad b. Ṣāliḥ al-Miṣrī
+isnad_080,jb_080,riwayah,Nāfiʿ,Warš,Yūnus b. ʿAbd al-ʾAʿlā
+isnad_081,jb_081,riwayah,Nāfiʿ,Warš,Yūnus b. ʿAbd al-ʾAʿlā
+isnad_082,jb_082,riwayah,Nāfiʿ,Warš,Yūnus b. ʿAbd al-ʾAʿlā
+isnad_083,jb_083,riwayah,Nāfiʿ,Warš,Yūnus b. ʿAbd al-ʾAʿlā
+isnad_084,jb_084,tilawah,Nāfiʿ,Warš,Yūnus b. ʿAbd al-ʾAʿlā
+isnad_085,jb_085,tilawah,Nāfiʿ,Warš,Yūnus b. ʿAbd al-ʾAʿlā
+isnad_086,jb_086,tilawah,Nāfiʿ,Warš,Muḥammad b. ʿAbd al-Raḥīm al-ʾIṣbahānī
+isnad_087,jb_087,tilawah,Nāfiʿ,Warš,Muḥammad b. ʿAbd al-Raḥīm al-ʾIṣbahānī
+isnad_088,jb_088,tilawah,Nāfiʿ,Warš,Muḥammad b. ʿAbd al-Raḥīm al-ʾIṣbahānī
+isnad_089,jb_089,tilawah,Nāfiʿ,Warš,Muḥammad b. ʿAbd al-Raḥīm al-ʾIṣbahānī
+isnad_090,jb_090,tilawah,Nāfiʿ,Warš,Muḥammad b. ʿAbd al-Raḥīm al-ʾIṣbahānī
+isnad_091,jb_091,tilawah,Nāfiʿ,Warš,Muḥammad b. ʿAbd al-Raḥīm al-ʾIṣbahānī
+isnad_092,jb_092,tilawah,Nāfiʿ,Warš,Muḥammad b. ʿAbd al-Raḥīm al-ʾIṣbahānī
+isnad_093,jb_093,tilawah,Nāfiʿ,Warš,Muḥammad b. ʿAbd al-Raḥīm al-ʾIṣbahānī
+isnad_094,jb_094,tilawah,Nāfiʿ,Warš,Muḥammad b. ʿAbd al-Raḥīm al-ʾIṣbahānī
+isnad_095,jb_095,tilawah,Nāfiʿ,Warš,Muḥammad b. ʿAbd al-Raḥīm al-ʾIṣbahānī
+isnad_096,jb_096,tilawah,Nāfiʿ,Warš,Muḥammad b. ʿAbd al-Raḥīm al-ʾIṣbahānī
+isnad_097,jb_097,riwayah,Ibn Kaṯīr,al-Qawwās,Qunbul
+isnad_098,jb_097,riwayah,Ibn Kaṯīr,al-Qawwās,Qunbul
+isnad_099,jb_098,tilawah,Ibn Kaṯīr,al-Qawwās,Qunbul
+isnad_100,jb_099,tilawah,Ibn Kaṯīr,al-Qawwās,Qunbul
+isnad_101,jb_100,tilawah,Ibn Kaṯīr,al-Qawwās,Qunbul
+isnad_102,jb_101,tilawah,Ibn Kaṯīr,al-Qawwās,Qunbul
+isnad_103,jb_102,tilawah,Ibn Kaṯīr,al-Qawwās,Qunbul
+isnad_104,jb_103,tilawah,Ibn Kaṯīr,al-Qawwās,Qunbul
+isnad_105,jb_104,tilawah,Ibn Kaṯīr,al-Qawwās,Qunbul
+isnad_106,jb_105,riwayah,Ibn Kaṯīr,al-Qawwās,al-Ḥulwānī
+isnad_107,jb_105,riwayah,Ibn Kaṯīr,al-Qawwās,al-Ḥulwānī
+isnad_108,jb_106,riwayah,Ibn Kaṯīr,al-Qawwās,al-Ḥulwānī
+isnad_109,jb_107,riwayah,Ibn Kaṯīr,al-Qawwās,Ibn Jubayr al-Hashimi
+isnad_110,jb_108,riwayah,Ibn Kaṯīr,al-Qawwās,Ibn Jubayr al-Hashimi
+isnad_111,jb_109,riwayah,Ibn Kaṯīr,al-Bazzī,ʾAbū Rabīʿah
+isnad_112,jb_109,riwayah,Ibn Kaṯīr,al-Bazzī,ʾAbū Rabīʿah
+isnad_113,jb_110,tilawah,Ibn Kaṯīr,al-Bazzī,ʾAbū Rabīʿah
+isnad_114,jb_111,tilawah,Ibn Kaṯīr,al-Bazzī,ʾAbū Rabīʿah
+isnad_115,jb_112,riwayah,Ibn Kaṯīr,al-Bazzī,Abu Ma3mar al-Basri
+isnad_116,jb_113,riwayah,Ibn Kaṯīr,al-Bazzī,al-Ḫuzāʿī
+isnad_117,jb_113,riwayah,Ibn Kaṯīr,al-Bazzī,al-Ḫuzāʿī
+isnad_118,jb_114,riwayah,Ibn Kaṯīr,al-Bazzī,al-Ḫuzāʿī
+isnad_119,jb_114,riwayah,Ibn Kaṯīr,al-Bazzī,al-Ḫuzāʿī
+isnad_120,jb_115,riwayah,Ibn Kaṯīr,al-Bazzī,al-Ḫuzāʿī
+isnad_121,jb_115,riwayah,Ibn Kaṯīr,al-Bazzī,al-Ḫuzāʿī
+isnad_122,jb_116,tilawah,Ibn Kaṯīr,al-Bazzī,al-Ḫuzāʿī
+isnad_123,jb_117,tilawah,Ibn Kaṯīr,al-Bazzī,al-Ḫuzāʿī
+isnad_124,jb_118,riwayah,Ibn Kaṯīr,al-Bazzī,Ibn al-Ḥubāb
+isnad_125,jb_119,riwayah,Ibn Kaṯīr,al-Bazzī,Ibn al-Ḥubāb
+isnad_126,jb_120,riwayah,Ibn Kaṯīr,al-Bazzī,Ibn al-Ḥubāb
+isnad_127,jb_120,riwayah,Ibn Kaṯīr,al-Bazzī,Ibn al-Ḥubāb
+isnad_128,jb_121,tilawah,Ibn Kaṯīr,al-Bazzī,Ibn al-Ḥubāb
+isnad_129,jb_122,tilawah,Ibn Kaṯīr,al-Bazzī,Ibn al-Ḥubāb
+isnad_130,jb_123,tilawah,Ibn Kaṯīr,al-Bazzī,IBN HARUN
+isnad_131,jb_124,riwayah,Ibn Kaṯīr,al-Bazzī,al-Lahabī
+isnad_132,jb_125,riwayah,Ibn Kaṯīr,al-Bazzī,AL-DABI
+isnad_133,jb_125,riwayah,Ibn Kaṯīr,al-Bazzī,AL-DABI
+isnad_134,jb_126,riwayah,Ibn Kaṯīr,Ibn Fulayḥ,al-Ḫuzāʿī
+isnad_135,jb_127,riwayah,Ibn Kaṯīr,Ibn Fulayḥ,al-Ḫuzāʿī
+isnad_136,jb_128,riwayah,Ibn Kaṯīr,Ibn Fulayḥ,al-Ḫuzāʿī
+isnad_137,jb_129,riwayah,Ibn Kaṯīr,Ibn Fulayḥ,al-Ḫuzāʿī
+isnad_138,jb_129,riwayah,Ibn Kaṯīr,Ibn Fulayḥ,al-Ḫuzāʿī
+isnad_139,jb_130,riwayah,Ibn Kaṯīr,Ibn Fulayḥ,al-Ḫuzāʿī
+isnad_140,jb_130,riwayah,Ibn Kaṯīr,Ibn Fulayḥ,al-Ḫuzāʿī
+isnad_141,jb_130,riwayah,Ibn Kaṯīr,Ibn Fulayḥ,al-Ḫuzāʿī
+isnad_142,jb_130,riwayah,Ibn Kaṯīr,Ibn Fulayḥ,al-Ḫuzāʿī
+isnad_143,jb_131,riwayah,Ibn Kaṯīr,Ibn Fulayḥ,al-Ḫuzāʿī
+isnad_144,jb_131,riwayah,Ibn Kaṯīr,Ibn Fulayḥ,al-Ḫuzāʿī
+isnad_145,jb_131,riwayah,Ibn Kaṯīr,Ibn Fulayḥ,al-Ḫuzāʿī
+isnad_146,jb_131,riwayah,Ibn Kaṯīr,Ibn Fulayḥ,al-Ḫuzāʿī
+isnad_147,jb_132,tilawah,Ibn Kaṯīr,Ibn Fulayḥ,al-Ḫuzāʿī
+isnad_148,jb_133,tilawah,Ibn Kaṯīr,Ibn Fulayḥ,al-Ḫuzāʿī
+isnad_149,jb_134,riwayah,Ibn Kaṯīr,Ibn Fulayḥ,ʾAbū ʿAlī al-Ḥaddād
+isnad_150,jb_135,riwayah,Ibn Kaṯīr,Ibn Fulayḥ,Muḥammad b. ʿImrān al-Dīnawarī
+isnad_151,jb_136,riwayah,ʾAbū ʿAmr,al-Yazīdī,al-Dūrī
+isnad_152,jb_137,riwayah,ʾAbū ʿAmr,al-Yazīdī,al-Dūrī
+isnad_153,jb_138,riwayah,ʾAbū ʿAmr,al-Yazīdī,al-Dūrī
+isnad_154,jb_139,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-Dūrī
+isnad_155,jb_140,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-Dūrī
+isnad_156,jb_141,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-Dūrī
+isnad_157,jb_142,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-Dūrī
+isnad_158,jb_143,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-Dūrī
+isnad_159,jb_144,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-Dūrī
+isnad_160,jb_145,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-Dūrī
+isnad_161,jb_146,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-Dūrī
+isnad_162,jb_147,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-Dūrī
+isnad_163,jb_148,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-Dūrī
+isnad_164,jb_149,riwayah,ʾAbū ʿAmr,al-Yazīdī,al-Sūsī
+isnad_165,jb_150,riwayah,ʾAbū ʿAmr,al-Yazīdī,al-Sūsī
+isnad_166,jb_151,riwayah,ʾAbū ʿAmr,al-Yazīdī,al-Sūsī
+isnad_167,jb_152,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-Sūsī
+isnad_168,jb_153,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-Sūsī
+isnad_169,jb_154,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-Sūsī
+isnad_170,jb_155,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-Sūsī
+isnad_171,jb_156,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-Sūsī
+isnad_172,jb_157,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-Sūsī
+isnad_173,jb_158,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-Sūsī
+isnad_174,jb_159,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-Sūsī
+isnad_175,jb_160,riwayah,ʾAbū ʿAmr,al-Yazīdī,al-ʾŪqiyyah
+isnad_176,jb_161,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-ʾŪqiyyah
+isnad_177,jb_162,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-ʾŪqiyyah
+isnad_178,jb_163,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-ʾŪqiyyah
+isnad_179,jb_164,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-ʾŪqiyyah
+isnad_180,jb_165,tilawah,ʾAbū ʿAmr,al-Yazīdī,al-ʾŪqiyyah
+isnad_181,jb_166,riwayah,ʾAbū ʿAmr,al-Yazīdī,ʾAbū ʾAyyūb
+isnad_182,jb_167,tilawah,ʾAbū ʿAmr,al-Yazīdī,ʾAbū ʾAyyūb
+isnad_183,jb_168,tilawah,ʾAbū ʿAmr,al-Yazīdī,ʾAbū ʾAyyūb
+isnad_184,jb_169,tilawah,ʾAbū ʿAmr,al-Yazīdī,ʾAbū ʾAyyūb
+isnad_185,jb_170,riwayah,ʾAbū ʿAmr,al-Yazīdī,Ibn al-Yazīdī
+isnad_186,jb_171,riwayah,ʾAbū ʿAmr,al-Yazīdī,Ibn al-Yazīdī
+isnad_187,jb_172,riwayah,ʾAbū ʿAmr,al-Yazīdī,ʾIsmāʿīl b. al-Yazīdī
+isnad_188,jb_173,riwayah,ʾAbū ʿAmr,al-Yazīdī,ABU JA3FAR/ABU AL-QASIM
+isnad_189,jb_174,riwayah,ʾAbū ʿAmr,al-Yazīdī,ABU JA3FAR/ABU AL-QASIM
+isnad_190,jb_175,riwayah,ʾAbū ʿAmr,al-Yazīdī,ABU JA3FAR/ABU AL-QASIM
+isnad_191,jb_176,riwayah,ʾAbū ʿAmr,al-Yazīdī,ABU JA3FAR/ABU AL-QASIM
+isnad_192,jb_177,riwayah,ʾAbū ʿAmr,al-Yazīdī,ʾAḥmad b. Wāṣil
+isnad_193,jb_178,riwayah,ʾAbū ʿAmr,al-Yazīdī,ʾAbū Ḥamdūn
+isnad_194,jb_179,riwayah,ʾAbū ʿAmr,al-Yazīdī,ʾAbū Ḫallād
+isnad_195,jb_180,riwayah,ʾAbū ʿAmr,al-Yazīdī,Ibn Saʿdān
+isnad_196,jb_181,riwayah,ʾAbū ʿAmr,al-Yazīdī,Ibn Saʿdān
+isnad_197,jb_182,riwayah,ʾAbū ʿAmr,al-Yazīdī,Ibn Ǧubayr
+isnad_198,jb_183,riwayah,ʾAbū ʿAmr,al-Yazīdī,Muḥammad b. Šuǧāʿ
+isnad_199,jb_184,riwayah,ʾAbū ʿAmr,Šuǧāʿ,ʾAbū ʿUbayd
+isnad_200,jb_185,tilawah,ʾAbū ʿAmr,Šuǧāʿ,Muḥammad b. Ġālib al-ʾAnmāṭī
+isnad_201,jb_186,tilawah,ʾAbū ʿAmr,Šuǧāʿ,Muḥammad b. Ġālib al-ʾAnmāṭī
+isnad_202,jb_187,tilawah,ʾAbū ʿAmr,Šuǧāʿ,Muḥammad b. Ġālib al-ʾAnmāṭī
+isnad_203,jb_188,tilawah,ʾAbū ʿAmr,Šuǧāʿ,Muḥammad b. Ġālib al-ʾAnmāṭī
+isnad_204,jb_189,tilawah,ʾAbū ʿAmr,Šuǧāʿ,Muḥammad b. Ġālib al-ʾAnmāṭī
+isnad_205,jb_190,tilawah,ʾAbū ʿAmr,Šuǧāʿ,Muḥammad b. Ġālib al-ʾAnmāṭī
+isnad_206,jb_191,tilawah,ʾAbū ʿAmr,Šuǧāʿ,ABU NASR
+isnad_207,jb_192,riwayah,ʾAbū ʿAmr,USUL IDGHAM,NA
+isnad_208,jb_193,riwayah,ʾAbū ʿAmr,USUL IDGHAM,NA
+isnad_209,jb_194,riwayah,ʾAbū ʿAmr,USUL IDGHAM,NA
+isnad_210,jb_195,riwayah,Ibn ʿĀmir,Ibn Ḏakwān,al-ʾAḫfaš
+isnad_211,jb_196,tilawah,Ibn ʿĀmir,Ibn Ḏakwān,al-ʾAḫfaš
+isnad_212,jb_197,tilawah,Ibn ʿĀmir,Ibn Ḏakwān,al-ʾAḫfaš
+isnad_213,jb_198,tilawah,Ibn ʿĀmir,Ibn Ḏakwān,al-ʾAḫfaš
+isnad_214,jb_199,tilawah,Ibn ʿĀmir,Ibn Ḏakwān,al-ʾAḫfaš
+isnad_215,jb_200,tilawah,Ibn ʿĀmir,Ibn Ḏakwān,al-ʾAḫfaš
+isnad_216,jb_201,tilawah,Ibn ʿĀmir,Ibn Ḏakwān,al-ʾAḫfaš
+isnad_217,jb_202,tilawah,Ibn ʿĀmir,Ibn Ḏakwān,al-ʾAḫfaš
+isnad_218,jb_203,tilawah,Ibn ʿĀmir,Ibn Ḏakwān,al-ʾAḫfaš
+isnad_219,jb_204,tilawah,Ibn ʿĀmir,Ibn Ḏakwān,al-ʾAḫfaš
+isnad_220,jb_205,riwayah,Ibn ʿĀmir,Ibn Ḏakwān,al-Taġlabī
+isnad_221,jb_206,riwayah,Ibn ʿĀmir,Ibn Ḏakwān,al-Ṣūrī
+isnad_222,jb_207,riwayah,Ibn ʿĀmir,Ibn Ḏakwān,Ibn ʾAnas
+isnad_223,jb_208,riwayah,Ibn ʿĀmir,Ibn Ḏakwān,Ibn Mu3alla
+isnad_224,jb_209,riwayah,Ibn ʿĀmir,Ibn Ḏakwān,Ibn Ḫurrazāḏ
+isnad_225,jb_210,riwayah,Ibn ʿĀmir,Hišām,al-Ḥulwānī
+isnad_226,jb_211,tilawah,Ibn ʿĀmir,Hišām,al-Ḥulwānī
+isnad_227,jb_212,tilawah,Ibn ʿĀmir,Hišām,al-Ḥulwānī
+isnad_228,jb_213,tilawah,Ibn ʿĀmir,Hišām,al-Ḥulwānī
+isnad_229,jb_214,riwayah,Ibn ʿĀmir,Hišām,Ibn ʾAnas
+isnad_230,jb_215,riwayah,Ibn ʿĀmir,Hišām,IBRAHIM B. ABBAD
+isnad_231,jb_216,riwayah,Ibn ʿĀmir,Hišām,ʾAbū ʿUbayd
+isnad_232,jb_217,riwayah,Ibn ʿĀmir,Hišām,IBN BAKR
+isnad_233,jb_218,riwayah,Ibn ʿĀmir,Hišām,ISHAQ B. ABI HASSAN
+isnad_234,jb_219,riwayah,Ibn ʿĀmir,Hišām,ABU BAKR AL-BAGHANDI
+isnad_235,jb_220,riwayah,Ibn ʿĀmir,Hišām,IBN NADR
+isnad_236,jb_221,riwayah,Ibn ʿĀmir,Hišām,IBN JARUD
+isnad_237,jb_222,riwayah,Ibn ʿĀmir,Hišām,IBN DAHIM
+isnad_238,jb_223,riwayah,Ibn ʿĀmir,al-Walīd b. ʿUtbah,ʾAḥmad b. Naṣr b. Šākir
+isnad_239,jb_224,riwayah,Ibn ʿĀmir,ʿAbd al-Ḥamīd b. Bakkār,al-ʿAbbās b. al-Walīd b. Mazīd
+isnad_240,jb_225,riwayah,Ibn ʿĀmir,al-Walīd b. Muslim,ISHAQ B. ABI ISRAIL
+isnad_241,jb_226,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-Kisāʾī
+isnad_242,jb_227,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-Kisāʾī
+isnad_243,jb_228,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-Kisāʾī
+isnad_244,jb_229,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-Kisāʾī
+isnad_245,jb_230,tilawah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-Kisāʾī
+isnad_246,jb_231,tilawah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-Kisāʾī
+isnad_247,jb_232,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-Kisāʾī
+isnad_248,jb_233,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Yaḥyā b. ʾĀdam
+isnad_249,jb_234,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Yaḥyā b. ʾĀdam
+isnad_250,jb_235,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Yaḥyā b. ʾĀdam
+isnad_251,jb_236,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Yaḥyā b. ʾĀdam
+isnad_252,jb_237,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Yaḥyā b. ʾĀdam
+isnad_253,jb_238,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Yaḥyā b. ʾĀdam
+isnad_254,jb_239,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Yaḥyā b. ʾĀdam
+isnad_255,jb_240,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Yaḥyā b. ʾĀdam
+isnad_256,jb_241,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Yaḥyā b. ʾĀdam
+isnad_257,jb_242,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Yaḥyā b. ʾĀdam
+isnad_258,jb_243,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Yaḥyā b. ʾĀdam
+isnad_259,jb_244,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Yaḥyā b. ʾĀdam
+isnad_260,jb_245,tilawah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Yaḥyā b. ʾĀdam
+isnad_261,jb_246,tilawah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Yaḥyā b. ʾĀdam
+isnad_262,jb_247,tilawah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Yaḥyā b. ʾĀdam
+isnad_263,jb_248,tilawah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Yaḥyā b. ʾĀdam
+isnad_264,jb_249,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-ʾAʿšā
+isnad_265,jb_250,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-ʾAʿšā
+isnad_266,jb_251,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-ʾAʿšā
+isnad_267,jb_252,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-ʾAʿšā
+isnad_268,jb_253,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-ʾAʿšā
+isnad_269,jb_254,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-ʾAʿšā
+isnad_270,jb_255,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-ʾAʿšā
+isnad_271,jb_256,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-ʾAʿšā
+isnad_272,jb_257,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-ʾAʿšā
+isnad_273,jb_258,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-ʾAʿšā
+isnad_274,jb_259,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-ʾAʿšā
+isnad_275,jb_260,tilawah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-ʾAʿšā
+isnad_276,jb_261,tilawah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-ʾAʿšā
+isnad_277,jb_262,tilawah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-ʾAʿšā
+isnad_278,jb_263,tilawah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-ʾAʿšā
+isnad_279,jb_264,tilawah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-ʾAʿšā
+isnad_280,jb_265,tilawah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-ʿUlaymī
+isnad_281,jb_266,tilawah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-Burǧumī
+isnad_282,jb_267,tilawah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-Burǧumī
+isnad_283,jb_268,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Ibn ʾAbī Ḥammād
+isnad_284,jb_269,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Ibn ʾAbī Ḥammād
+isnad_285,jb_270,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Ibn ʾAbī Ḥammād
+isnad_286,jb_271,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Ibn ʾAbī Ḥammād
+isnad_287,jb_272,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-mu3la
+isnad_288,jb_273,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,ʾAbū ʾUmayyah
+isnad_289,jb_274,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Ḥusayn al-Ǧuʿfī
+isnad_290,jb_275,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Ḥusayn al-Ǧuʿfī
+isnad_291,jb_276,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Ḥusayn al-Ǧuʿfī
+isnad_292,jb_277,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,YAHYA B. SULAYMAN AL-Ju3FI
+isnad_293,jb_278,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,YAHYA B. SULAYMAN AL-Ju3FI
+isnad_294,jb_279,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-ʿUṭāridī
+isnad_295,jb_280,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-ʿUṭāridī
+isnad_296,jb_281,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Hārūn b. Ḥātim
+isnad_297,jb_282,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Hārūn b. Ḥātim
+isnad_298,jb_283,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,ʾIsḥāq al-ʾAzraq
+isnad_299,jb_284,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,UBAYD B. NU3AYM AL-SA3IDI
+isnad_300,jb_285,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Ibn Ǧubayr
+isnad_301,jb_286,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Ibn Ǧubayr
+isnad_302,jb_287,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Burayd b. ʿAbd al-Wāḥid ʾAbū al-Maʿāfī al-Ḍarīr
+isnad_303,jb_288,riwayah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Burayd b. ʿAbd al-Wāḥid ʾAbū al-Maʿāfī al-Ḍarīr
+isnad_304,jb_289,riwayah,ʿĀṣim,Ḥafṣ,ʿAmr b. al-Ṣabbāḥ
+isnad_305,jb_290,tilawah,ʿĀṣim,Ḥafṣ,ʿAmr b. al-Ṣabbāḥ
+isnad_306,jb_291,tilawah,ʿĀṣim,Ḥafṣ,ʿAmr b. al-Ṣabbāḥ
+isnad_307,jb_292,riwayah,ʿĀṣim,Ḥafṣ,ʿUbayd b. al-Ṣabbāḥ
+isnad_308,jb_293,riwayah,ʿĀṣim,Ḥafṣ,ʿUbayd b. al-Ṣabbāḥ
+isnad_309,jb_294,tilawah,ʿĀṣim,Ḥafṣ,ʿAmr b. al-Ṣabbāḥ
+isnad_310,jb_295,tilawah,ʿĀṣim,Ḥafṣ,ʿAmr b. al-Ṣabbāḥ
+isnad_311,jb_296,tilawah,ʿĀṣim,Ḥafṣ,ʿAmr b. al-Ṣabbāḥ
+isnad_312,jb_297,tilawah,ʿĀṣim,Ḥafṣ,ʿAmr b. al-Ṣabbāḥ
+isnad_313,jb_298,tilawah,ʿĀṣim,Ḥafṣ,ʿAmr b. al-Ṣabbāḥ
+isnad_314,jb_299,tilawah,ʿĀṣim,Ḥafṣ,ʿAmr b. al-Ṣabbāḥ
+isnad_315,jb_300,tilawah,ʿĀṣim,Ḥafṣ,ʿAmr b. al-Ṣabbāḥ
+isnad_316,jb_301,tilawah,ʿĀṣim,Ḥafṣ,ʿAmr b. al-Ṣabbāḥ
+isnad_317,jb_302,tilawah,ʿĀṣim,Ḥafṣ,ʿAmr b. al-Ṣabbāḥ
+isnad_318,jb_303,tilawah,ʿĀṣim,Ḥafṣ,ʿAmr b. al-Ṣabbāḥ
+isnad_319,jb_304,riwayah,ʿĀṣim,Ḥafṣ,ʿAmr b. al-Ṣabbāḥ
+isnad_320,jb_305,riwayah,ʿĀṣim,Ḥafṣ,ʿAmr b. al-Ṣabbāḥ
+isnad_321,jb_306,tilawah,ʿĀṣim,Ḥafṣ,ʿAmr b. al-Ṣabbāḥ
+isnad_322,jb_307,tilawah,ʿĀṣim,Ḥafṣ,ʿAmr b. al-Ṣabbāḥ
+isnad_323,jb_308,riwayah,ʿĀṣim,Ḥafṣ,Hubayrah
+isnad_324,jb_309,tilawah,ʿĀṣim,Ḥafṣ,Hubayrah
+isnad_325,jb_310,tilawah,ʿĀṣim,Ḥafṣ,Hubayrah
+isnad_326,jb_311,riwayah,ʿĀṣim,Ḥafṣ,ʾAbū Šuʿayb al-Qawwās al-Baġdādī
+isnad_327,jb_312,tilawah,ʿĀṣim,Ḥafṣ,ʾAbū Šuʿayb al-Qawwās al-Baġdādī
+isnad_328,jb_313,riwayah,ʿĀṣim,Ḥafṣ,ʾAbū ʿUmārah
+isnad_329,jb_314,riwayah,ʿĀṣim,Ḥafṣ,ʾAbū ʿUmārah
+isnad_330,jb_315,riwayah,ʿĀṣim,Ḥafṣ,ʾAbū al-Rabīʿ
+isnad_331,jb_316,riwayah,ʿĀṣim,Ḥafṣ,Ḥusayn al-Marrūḏī
+isnad_332,jb_317,riwayah,ʿĀṣim,Ḥafṣ,AL-FADL B. YAHYA B. SHAHI AL-ANBARI
+isnad_333,jb_318,riwayah,ʿĀṣim,Ḥafṣ,AL-FADL B. YAHYA B. SHAHI AL-ANBARI
+isnad_334,jb_319,riwayah,ʿĀṣim,al-Mufaḍḍal,Ǧabalah
+isnad_335,jb_320,tilawah,ʿĀṣim,al-Mufaḍḍal,Ǧabalah
+isnad_336,jb_321,tilawah,ʿĀṣim,al-Mufaḍḍal,Ǧabalah
+isnad_337,jb_322,riwayah,ʿĀṣim,al-Mufaḍḍal,ʾAbū Zayd
+isnad_338,jb_323,riwayah,ʿĀṣim,al-Mufaḍḍal,ʾAbū Zayd
+isnad_339,jb_324,tilawah,ʿĀṣim,Ḥammād b. ʾAbī Ziyād,al-ʿUlaymī
+isnad_340,jb_325,tilawah,ʿĀṣim,Ḥammād b. ʾAbī Ziyād,al-ʿUlaymī
+isnad_341,jb_326,tilawah,ʿĀṣim,Ḥammād b. ʾAbī Ziyād,al-ʿUlaymī
+isnad_342,jb_327,tilawah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-ʿUlaymī
+isnad_343,jb_328,tilawah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,Ḥammād b. ʾAbī Ziyād
+isnad_344,jb_329,tilawah,ʿĀṣim,Ḥammād b. ʾAbī Ziyād,al-ʿUlaymī
+isnad_345,jb_330,tilawah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-ʿUlaymī
+isnad_346,jb_331,tilawah,ʿĀṣim,ʾAbū Bakr b. ʿAyyāš,al-ʿUlaymī
+isnad_347,jb_332,riwayah,Ḥamzah,Sulaym,Ḫalaf
+isnad_348,jb_333,riwayah,Ḥamzah,Sulaym,Ḫalaf
+isnad_349,jb_334,tilawah,Ḥamzah,Sulaym,Ḫalaf
+isnad_350,jb_335,tilawah,Ḥamzah,Sulaym,Ḫalaf
+isnad_351,jb_336,tilawah,Ḥamzah,Sulaym,Ḫalaf
+isnad_352,jb_337,tilawah,Ḥamzah,Sulaym,Ḫalaf
+isnad_353,jb_338,tilawah,Ḥamzah,Sulaym,ʾAbū al-ʿAbbās al-Faḍl b. ʾAḥmad al-Zubaydī al-Baġdādī
+isnad_354,jb_339,tilawah,Ḥamzah,Sulaym,ʾAḥmad b. Muḥammad b. Ḫālid b. Yazīd b. Ġazwān al-Burāthī
+isnad_355,jb_340,riwayah,Ḥamzah,Sulaym,Ḫallād
+isnad_356,jb_341,riwayah,Ḥamzah,Sulaym,Ḫallād
+isnad_357,jb_342,riwayah,Ḥamzah,Sulaym,Ḫallād
+isnad_358,jb_343,riwayah,Ḥamzah,Sulaym,Ḫallād
+isnad_359,jb_344,tilawah,Ḥamzah,Sulaym,Ḫallād
+isnad_360,jb_345,tilawah,Ḥamzah,Sulaym,Ḫallād
+isnad_361,jb_346,tilawah,Ḥamzah,Sulaym,Ḫallād
+isnad_362,jb_347,tilawah,Ḥamzah,Sulaym,Ḫallād
+isnad_363,jb_348,tilawah,Ḥamzah,Sulaym,Ḫallād
+isnad_364,jb_349,tilawah,Ḥamzah,Sulaym,Ḫallād
+isnad_365,jb_350,tilawah,Ḥamzah,Sulaym,Ḫallād
+isnad_366,jb_351,tilawah,Ḥamzah,Sulaym,Ḫallād
+isnad_367,jb_352,tilawah,Ḥamzah,Sulaym,Ḫallād
+isnad_368,jb_353,tilawah,Ḥamzah,Sulaym,Ḫallād
+isnad_369,jb_354,tilawah,Ḥamzah,Sulaym,Ḫallād
+isnad_370,jb_355,tilawah,Ḥamzah,Sulaym,Ḫallād
+isnad_371,jb_356,tilawah,Ḥamzah,Sulaym,Ḫallād
+isnad_372,jb_357,tilawah,Ḥamzah,Sulaym,Ḫallād
+isnad_373,jb_358,riwayah,Ḥamzah,Sulaym,al-Dūrī
+isnad_374,jb_359,riwayah,Ḥamzah,Sulaym,al-Dūrī
+isnad_375,jb_360,riwayah,Ḥamzah,Sulaym,al-Dūrī
+isnad_376,jb_361,tilawah,Ḥamzah,Sulaym,al-Dūrī
+isnad_377,jb_362,tilawah,Ḥamzah,Sulaym,al-Dūrī
+isnad_378,jb_363,tilawah,Ḥamzah,Sulaym,al-Dūrī
+isnad_379,jb_364,tilawah,Ḥamzah,Sulaym b. ʿĪsā b. Sulaym,Raǧāʾ b. ʿĪsā
+isnad_380,jb_365,tilawah,Ḥamzah,ʿAbd al-Raḥmān b. ʾAbī Ḥammād,Raǧāʾ b. ʿĪsā
+isnad_381,jb_366,tilawah,Ḥamzah,Yaḥyā b. ʿAlī al-Ḫazzāz,Raǧāʾ b. ʿĪsā
+isnad_382,jb_367,tilawah,Ḥamzah,Sulaym,Raǧāʾ b. ʿĪsā
+isnad_383,jb_368,tilawah,Ḥamzah,Sulaym,Raǧāʾ b. ʿĪsā
+isnad_384,jb_369,riwayah,Ḥamzah,Sulaym,ʾIbrāhīm b. Zarbī
+isnad_385,jb_370,riwayah,Ḥamzah,Sulaym,ʿAlī b. Kīsah
+isnad_386,jb_371,riwayah,Ḥamzah,Sulaym,ʿAlī b. Kīsah
+isnad_387,jb_372,riwayah,Ḥamzah,Sulaym,ʿAlī b. Kīsah
+isnad_388,jb_373,riwayah,Ḥamzah,Sulaym,ʿAlī b. Kīsah
+isnad_389,jb_374,riwayah,Ḥamzah,Sulaym,Ibn Saʿdān
+isnad_390,jb_375,tilawah,Ḥamzah,Sulaym,Ibn Saʿdān
+isnad_391,jb_376,riwayah,Ḥamzah,Sulaym,Ibn Ǧubayr
+isnad_392,jb_377,riwayah,Ḥamzah,Sulaym,ʾAbū Hišām
+isnad_393,jb_378,riwayah,Ḥamzah,Sulaym,ʾAbū Hišām
+isnad_394,jb_379,riwayah,Ḥamzah,Sulaym,ʾAbū Hišām
+isnad_395,jb_380,riwayah,al-Kisāʾī,al-Dūrī,Ibn ʿAbdūs
+isnad_396,jb_381,tilawah,al-Kisāʾī,al-Dūrī,Ibn ʿAbdūs
+isnad_397,jb_382,tilawah,al-Kisāʾī,al-Dūrī,Ibn Faraḥ
+isnad_398,jb_383,riwayah,al-Kisāʾī,al-Dūrī,ʾAbū ʿUṯmān
+isnad_399,jb_384,riwayah,al-Kisāʾī,al-Dūrī,ʾAbū al-Ḥasan ʿAlī b. ʾAḥmad b. ʿUmar al-Ḥammāmī
+isnad_400,jb_385,tilawah,al-Kisāʾī,al-Dūrī,ʾAbū al-Ḥasan ʿAlī b. ʾAḥmad b. ʿUmar al-Ḥammāmī
+isnad_401,jb_386,tilawah,al-Kisāʾī,al-Dūrī,al-rafi3i
+isnad_402,jb_387,tilawah,al-Kisāʾī,al-Dūrī,al-Qaṭīʿī
+isnad_403,jb_388,riwayah,al-Kisāʾī,ʾAbū al-Ḥāriṯ,al-Kisāʾī al-Ṣaġīr
+isnad_404,jb_389,tilawah,al-Kisāʾī,ʾAbū al-Ḥāriṯ,al-Kisāʾī al-Ṣaġīr
+isnad_405,jb_390,tilawah,al-Kisāʾī,ʾAbū al-Ḥāriṯ,al-Kisāʾī al-Ṣaġīr
+isnad_406,jb_391,riwayah,al-Kisāʾī,ʾAbū al-Ḥāriṯ,Salamah
+isnad_407,jb_392,riwayah,al-Kisāʾī,Nuṣayr,Ibn Rustam
+isnad_408,jb_393,riwayah,al-Kisāʾī,Nuṣayr,Muḥammad b. ʿĪsā
+isnad_409,jb_394,riwayah,al-Kisāʾī,Nuṣayr,Muḥammad b. ʾIdrīs
+isnad_410,jb_395,riwayah,al-Kisāʾī,Nuṣayr,ʿAlī b. ʾAbī Naṣr al-Naḥwī
+isnad_411,jb_396,tilawah,al-Kisāʾī,Nuṣayr,al-Ḥusayn b. Šuʿayb al-Kūfī
+isnad_412,jb_397,tilawah,al-Kisāʾī,Nuṣayr,DAWUD B. SULAYMAN
+isnad_413,jb_398,tilawah,al-Kisāʾī,al-Šayzarī,Ibn Šanabūḏ
+isnad_414,jb_399,tilawah,al-Kisāʾī,al-Šayzarī,ʾAbū al-ʿAbbās
+isnad_415,jb_400,riwayah,al-Kisāʾī,Qutaybah,al-ʾAṣamm
+isnad_416,jb_401,riwayah,al-Kisāʾī,Qutaybah,al-ʿAbbās b. al-Walīd b. Mirdās
