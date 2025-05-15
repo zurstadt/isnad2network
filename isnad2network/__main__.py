@@ -4,6 +4,9 @@
 """
 Entry point for the isnad2network package.
 This allows running the package directly using 'python -m isnad2network'.
+
+Author: Your Name
+License: MIT
 """
 
 from .isnad2network_cli import main

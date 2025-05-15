@@ -32,22 +32,6 @@ Logs information about the execution environment for troubleshooting.
 
 ## Name Replacement Module
 
-### `process_network_names()`
-
-```python
-def process_network_names(names_file='names.csv', nodelist_file='nodelist.csv', output_file='names_replaced.csv')
-```
-
-Processes network names using the `NetworkNameProcessor`.
-
-**Parameters:**
-- `names_file` (str): Path to the names CSV file
-- `nodelist_file` (str): Path to the nodelist CSV file
-- `output_file` (str): Path to the output CSV file
-
-**Returns:**
-- `DataFrame`: The processed DataFrame with replaced names
-
 ### `NetworkNameProcessor`
 
 ```python
@@ -55,6 +39,11 @@ class NetworkNameProcessor(names_file, nodelist_file, output_file=None)
 ```
 
 Class for processing network names and replacing them based on a mapping.
+
+**Parameters:**
+- `names_file` (str): Path to the CSV file with network pathways
+- `nodelist_file` (str): Path to the CSV file with node name mappings
+- `output_file` (str): Path to the output file (default: names_replaced.csv)
 
 **Methods:**
 - `load_data()`: Load the necessary data files
@@ -65,6 +54,9 @@ Class for processing network names and replacing them based on a mapping.
 - `save_results(names_replaced_df)`: Save the results to files
 - `analyze_network()`: Analyze the network structure and provide insights
 - `process()`: Run the complete processing pipeline
+
+**Returns from process():**
+- `bool`: Success status
 
 ## Dictionary Creation Module
 
@@ -78,51 +70,17 @@ Class to process CSV files and create dictionary outputs.
 
 **Methods:**
 - `upload_file()`: Upload a CSV file in Google Colab
-- `load_csv(encoding='utf-8', sep=',')`: Load the CSV file and display a preview
+- `load_csv(encoding='utf-8', sep=',', skip_display=False)`: Load the CSV file and display a preview
 - `create_unique_values_dict(columns)`: Create a CSV with unique values from specified columns
 - `create_annotation_dict(columns)`: Create a CSV with unique strings, their counts, and annotation columns
 
+**Parameters for create_unique_values_dict and create_annotation_dict:**
+- `columns` (list): List of column names to extract values/strings from
+
+**Returns from create_unique_values_dict and create_annotation_dict:**
+- `str`: Path to the created file, or None if an error occurred
+
 ## Network Generation Module
-
-### `process_isnad_network()`
-
-```python
-def process_isnad_network(trans_file, names_file, metadata_file=None, output_dir="output/network", skip_filtering=False)
-```
-
-Main function to process isnad network data.
-
-**Parameters:**
-- `trans_file` (str): Path to transmission terms CSV file
-- `names_file` (str): Path to names CSV file
-- `metadata_file` (str, optional): Path to metadata CSV file
-- `output_dir` (str): Directory for output files
-- `skip_filtering` (bool): If True, skip filtering out invalid records
-
-**Returns:**
-- `dict`: Dictionary with processing results, containing:
-  - `status`: "success" or "error"
-  - `output_files`: Paths to output files
-  - `records_processed`: Number of records processed
-  - `node_count`: Number of nodes in the network
-  - `edge_count`: Number of edges in the network
-  - `error`: Error message (if status is "error")
-
-### `compare_chain_lengths()`
-
-```python
-def compare_chain_lengths(names_df, trans_df, output_dir='.')
-```
-
-Compare the chain lengths in the names and transmission dataframes.
-
-**Parameters:**
-- `names_df` (DataFrame): Names dataframe
-- `trans_df` (DataFrame): Transmission terms dataframe
-- `output_dir` (str): Directory to save the report
-
-**Returns:**
-- `DataFrame`: DataFrame with mismatches
 
 ### `generate_network_data()`
 
@@ -139,6 +97,30 @@ Generate network graph data from the isnad analysis results.
 **Returns:**
 - `dict`: Dictionary with network graph data
 
+### `process_isnad_network()`
+
+```python
+def process_isnad_network(trans_file, names_file, metadata_file=None, output_dir="output/network", skip_filtering=False)
+```
+
+Main function to process isnad network data.
+
+**Parameters:**
+- `trans_file` (str): Path to transmission terms CSV file
+- `names_file` (str): Path to names CSV file (typically names_replaced.csv)
+- `metadata_file` (str, optional): Path to metadata CSV file
+- `output_dir` (str): Directory for output files
+- `skip_filtering` (bool): If True, skip filtering out invalid records
+
+**Returns:**
+- `dict`: Dictionary with processing results, containing:
+  - `status`: "success" or "error"
+  - `output_files`: Paths to output files
+  - `records_processed`: Number of records processed
+  - `node_count`: Number of nodes in the network
+  - `edge_count`: Number of edges in the network
+  - `error`: Error message (if status is "error")
+
 ### `TransmissionTerm`
 
 ```python
@@ -147,10 +129,16 @@ class TransmissionTerm(term_text)
 
 Class to analyze and classify transmission terms.
 
+**Parameters:**
+- `term_text` (str): The transmission term text to analyze
+
 **Methods:**
 - `_extract_terms()`: Extract individual terms from the text
 - `_classify()`: Classify the term based on content
 - `to_dict()`: Convert to dictionary representation
+
+**Returns from to_dict():**
+- `dict`: Dictionary with term analysis results
 
 ### `CellAnalyzer`
 
@@ -160,10 +148,17 @@ class CellAnalyzer(cell_value, cell_id)
 
 Class to analyze a single cell in the transmission data.
 
+**Parameters:**
+- `cell_value`: The cell value to analyze
+- `cell_id` (str): Identifier for the cell
+
 **Methods:**
 - `_analyze()`: Analyze the cell content
 - `is_mixed_mode()`: Check if the cell contains mixed mode terms
 - `to_dict()`: Convert to dictionary representation
+
+**Returns from to_dict():**
+- `dict`: Dictionary with cell analysis results, or None if cell is empty
 
 ### `IsnadAnalyzer`
 
@@ -172,6 +167,11 @@ class IsnadAnalyzer(trans_df, names_df, metadata_df=None)
 ```
 
 Class to analyze isnad data across multiple records.
+
+**Parameters:**
+- `trans_df` (DataFrame): Transmission terms dataframe
+- `names_df` (DataFrame): Names dataframe
+- `metadata_df` (DataFrame, optional): Metadata dataframe
 
 **Methods:**
 - `analyze_all_cells()`: Analyze all cells in the transmission dataframe
@@ -285,3 +285,26 @@ The `isnad_network_data.json` file has the following structure:
   ]
 }
 ```
+
+## Package Entry Points
+
+### Main Package Import
+
+```python
+import isnad2network
+```
+
+**Available attributes and functions:**
+- `__version__`: The package version
+- `process_pipeline`: Function to run the complete pipeline
+- `NetworkNameProcessor`: Class for name replacement
+- `CSVDictionaryProcessor`: Class for dictionary creation
+- `generate_network_data`: Function for network generation
+
+### Command-Line Entry Point
+
+```bash
+isnad2network [options]
+```
+
+This command runs the package as a command-line application, using the `main()` function from `isnad2network_cli.py`.
