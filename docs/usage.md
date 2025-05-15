@@ -7,7 +7,7 @@ This guide provides detailed instructions for using the Isnad2Network toolkit.
 Install the package from GitHub:
 
 ```bash
-git clone https://github.com/yourusername/isnad2network.git
+git clone https://github.com/zurstadt/isnad2network.git
 cd isnad2network
 pip install -e .
 ```
@@ -52,83 +52,75 @@ The toolkit provides a command-line interface for running the entire pipeline or
 Run the complete pipeline:
 
 ```bash
-python src/isnad2network_cli.py --input-names-file data/names.csv \
-                                --nodelist-file data/nodelist.csv \
-                                --trans-terms-file data/transmissionterms.csv \
-                                --path-metadata-file data/pathmetadata.csv \
-                                --output-dir output
+isnad2network --input-names data/names.csv \
+              --nodelist data/nodelist.csv \
+              --trans-terms data/transmissionterms.csv \
+              --path-metadata data/pathmetadata.csv \
+              --output-dir output
 ```
 
 ### Command-Line Arguments
 
 | Argument | Description |
 |----------|-------------|
-| `--input-names-file` | Path to the names CSV file (required) |
-| `--nodelist-file` | Path to the nodelist CSV file with mappings (required) |
-| `--trans-terms-file` | Path to the transmission terms CSV file (required) |
-| `--path-metadata-file` | Path to the path metadata CSV file (optional) |
+| `--input-names` | Path to the names CSV file (required) |
+| `--nodelist` | Path to the nodelist CSV file with mappings (required) |
+| `--trans-terms` | Path to the transmission terms CSV file (required) |
+| `--path-metadata` | Path to the path metadata CSV file (required) |
 | `--output-dir` | Directory to save output files (default: "output") |
 | `--steps` | Steps to run: 0=all, 1=name replacement, 2=dictionaries, 3=network JSON |
 | `--skip-filtering` | Skip filtering of records with NA values in JSON generation |
-| `--compare-chains` | Compare chain lengths between names and transmission terms |
+| `--version` | Show version information and exit |
 
 ### Examples
 
 Run only the name replacement step:
 
 ```bash
-python src/isnad2network_cli.py --input-names-file data/names.csv \
-                                --nodelist-file data/nodelist.csv \
-                                --trans-terms-file data/transmissionterms.csv \
-                                --output-dir output \
-                                --steps 1
+isnad2network --input-names data/names.csv \
+              --nodelist data/nodelist.csv \
+              --trans-terms data/transmissionterms.csv \
+              --path-metadata data/pathmetadata.csv \
+              --output-dir output \
+              --steps 1
 ```
 
 Run only the dictionary creation step:
 
 ```bash
-python src/isnad2network_cli.py --input-names-file data/names.csv \
-                                --nodelist-file data/nodelist.csv \
-                                --trans-terms-file data/transmissionterms.csv \
-                                --output-dir output \
-                                --steps 2
+isnad2network --input-names data/names.csv \
+              --nodelist data/nodelist.csv \
+              --trans-terms data/transmissionterms.csv \
+              --path-metadata data/pathmetadata.csv \
+              --output-dir output \
+              --steps 2
 ```
 
 Run only the network generation step:
 
 ```bash
-python src/isnad2network_cli.py --input-names-file data/names.csv \
-                                --nodelist-file data/nodelist.csv \
-                                --trans-terms-file data/transmissionterms.csv \
-                                --path-metadata-file data/pathmetadata.csv \
-                                --output-dir output \
-                                --steps 3
-```
-
-Compare chain lengths:
-
-```bash
-python src/isnad2network_cli.py --input-names-file data/names.csv \
-                                --nodelist-file data/nodelist.csv \
-                                --trans-terms-file data/transmissionterms.csv \
-                                --output-dir output \
-                                --compare-chains
+isnad2network --input-names data/names.csv \
+              --nodelist data/nodelist.csv \
+              --trans-terms data/transmissionterms.csv \
+              --path-metadata data/pathmetadata.csv \
+              --output-dir output \
+              --steps 3
 ```
 
 Skip filtering of invalid records:
 
 ```bash
-python src/isnad2network_cli.py --input-names-file data/names.csv \
-                                --nodelist-file data/nodelist.csv \
-                                --trans-terms-file data/transmissionterms.csv \
-                                --path-metadata-file data/pathmetadata.csv \
-                                --output-dir output \
-                                --skip-filtering
+isnad2network --input-names data/names.csv \
+              --nodelist data/nodelist.csv \
+              --trans-terms data/transmissionterms.csv \
+              --path-metadata data/pathmetadata.csv \
+              --output-dir output \
+              --skip-filtering
 ```
 
 ## Running in Google Colab
 
-1. Open the notebook `isnad2network_colab.ipynb` in Google Colab
+1. Open the notebook `notebooks/isnad2network_colab.ipynb` in Google Colab
 2. Run the cells and follow the prompts to upload your data files
 3. The notebook will guide you through each processing step
 4. Results will be available for download as a ZIP file
@@ -140,17 +132,19 @@ python src/isnad2network_cli.py --input-names-file data/names.csv \
 Process and standardize names in the transmission chains:
 
 ```python
-from isnad2network.match_replace_isnads import process_network_names
+from isnad2network.match_replace_isnads import NetworkNameProcessor
 
-# Process names
-result_df = process_network_names(
+# Initialize processor
+processor = NetworkNameProcessor(
     names_file='path/to/names.csv',
     nodelist_file='path/to/nodelist.csv',
     output_file='names_replaced.csv'
 )
 
-if result_df is not None:
-    print(f"Processed {len(result_df)} records")
+# Process names
+success = processor.process()
+if success:
+    print("Names replacement completed successfully")
 ```
 
 ### 2. Dictionary Creation
@@ -195,6 +189,33 @@ if result['status'] == 'success':
     print(f"Output files: {result['output_files']}")
 ```
 
+### 4. Running the Complete Pipeline
+
+Run the complete pipeline programmatically:
+
+```python
+from isnad2network import process_pipeline
+import argparse
+
+# Create arguments similar to command-line usage
+args = argparse.Namespace(
+    input_names_file='data/names.csv',
+    nodelist_file='data/nodelist.csv',
+    trans_terms_file='data/transmissionterms.csv',
+    path_metadata_file='data/pathmetadata.csv',
+    output_dir='output',
+    steps=0,  # Run all steps
+    skip_filtering=False
+)
+
+# Run the pipeline
+success = process_pipeline(args)
+if success:
+    print("Pipeline completed successfully")
+else:
+    print("Pipeline completed with errors")
+```
+
 ## Working with the Output
 
 ### 1. Replaced Names File
@@ -213,7 +234,6 @@ if result['status'] == 'success':
 
 ### 4. Optional Files
 
-- `chain_length_mismatches.csv`: Contains details about chains with mismatched lengths between names and transmission terms
 - `unmatched_names.txt`: Contains names that were not found in the mapping
 
 ### 5. Visualization
