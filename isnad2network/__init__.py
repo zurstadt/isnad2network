@@ -48,4 +48,5 @@ __all__ = [
     'CSVDictionaryProcessor',
     'generate_network_data',
     'process_pipeline',
+    'isnad2network_cli'،
 ]
