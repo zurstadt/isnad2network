@@ -37,11 +37,11 @@ except ImportError:
 try:
     # Directly import run_pipeline from the correct file
     from .isnad2network_cli import run_pipeline as process_pipeline
-except ImportError as e:  # Make sure to capture the exception as 'e'
-    # If that fails, create a placeholder
+except ImportError:
+    # Simple placeholder that doesn't use the exception variable
     def process_pipeline(*args, **kwargs):
         """Placeholder for pipeline processing function."""
-        raise ImportError(f"Could not import run_pipeline: {e}")
+        raise ImportError("Could not import run_pipeline")
 
 __all__ = [
     'NetworkNameProcessor',
