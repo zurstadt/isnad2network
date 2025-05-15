@@ -918,14 +918,11 @@ def compare_chain_lengths(names_df, trans_df, output_dir='.'):
 # Provide all the necessary functions to make the script compatible with the pipeline
 __all__ = [
     'TransmissionTerm',
-    'CellAnalyzer',
+    'CellAnalyzer', 
     'IsnadAnalyzer',
-    'check_dimensions',
-    'filter_invalid_records',
     'compare_chain_lengths',
     'generate_network_data',
-    'process_isnad_network',
-    '_create_placeholder_files'
+    'process_isnad_network'
 ]
 
 if __name__ == "__main__":
